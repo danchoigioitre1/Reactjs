@@ -21,9 +21,9 @@ let obj = new infor('obj',"this is a obj")
 
 
 class hinhHoc extends infor{
-    constructor(length)
+    constructor(name,age,length)
     {
-        super(length)
+        super(name,age)
         this.length =length;
     }
     
