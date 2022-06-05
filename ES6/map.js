@@ -8,5 +8,5 @@ const birds = [
 function returnID(bird){
     return bird.ID;
 }
-let newID = birds.map( returnID );
+let newID = birds.map(bird => ({ID: bird.ID}) );
 console.log(newID);
