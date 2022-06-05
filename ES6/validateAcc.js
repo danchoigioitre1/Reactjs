@@ -13,3 +13,4 @@ function isValidateAcc(str){
 // [_a-z0-9]	Ký tự cho phép dấu gạch dưới (_) chỉ là các chữ thường từ a-z hoặc 0-9
 // {6,}	Ít nhất là 6 ký tự
 // $	Kết thúc chuỗi regex
+
