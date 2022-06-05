@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset=utf-8 />
-    <title>JavaScript Regular expression to check string's first character is uppercase or not</title>
+    <meta charset="utf-8">
+    <title>JavaScript function to check whether a given value is US zip code or not</title>
 </head>
 <body>
-    <script >
-
-function isFirstLetterUpperCase(str) {
-   regexp = /^[A-Z]/;
-   if (regexp.test(str)) {
-      console.log("String's first character is uppercase");
-   } else {
-      console.log("String's first character is not uppercase");
-   }
+    <script>
+        function is_usZipCode(str) {
+        regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
+        if (regexp.test(str)) {
+            return true;
+        } 
+        return false;
 }
-    
-    isFirstLetterUpperCase('Abcd');
-    isFirstLetterUpperCase('abcd');
 
-    
+
+    var zipcode = "03201 - 2150"
+    console.log(is_usZipCode(zipcode));
+    zipcode = "7892";
+    console.log(is_usZipCode(zipcode));
     </script>
 </body>
 </html>
