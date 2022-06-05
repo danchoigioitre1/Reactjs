@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS getAttribute() Demo</title>
+</head>
+<body>
+<button id="btn" onclick="set()">btn</button>
+   <script>
+
+let btn = document.querySelector('#btn');
+btn.addEventListener('click',function(event) {
+    alert(event.type); // click
+});
+
+// function set(){btn.setAttribute("style","border:10px solid red")
+// }
+
+
+btn.addEventListener('click', btn.setAttribute("style","border:10px solid "));
+
+btn.addEventListener('click',function(event) {
+    alert('Clicked!');
+});
+   </script>
+</body>
+</html>
