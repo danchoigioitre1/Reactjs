@@ -1,0 +1,24 @@
+.container {
+
+    width: 80%;
+    display: block;
+    margin: auto;
+    background-color: bisque;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+input{
+    line-height: 150px;
+    width: 60%;
+}
+
+.addToDoDiv{
+     
+  margin-left: 150px;
+}
+
+
