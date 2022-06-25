@@ -12,7 +12,7 @@ function Alert({text,...props}) {
 
 function App() {
   return (
-    <div id='wapper'>
+    <div id='wapper456'>
       <Alert 
     
     text="Cảnh báo! Tài nguyên bạn vừa truy cập không tồn tại." 
