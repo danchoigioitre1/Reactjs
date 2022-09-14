@@ -9,3 +9,5 @@ zoo.delete("dragon")
 console.log(zoo)
 console.log(zoo.has('cat'))
 console.log(zoo.has('dragon'))
+console.log(zoo.entries())
+

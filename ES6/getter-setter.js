@@ -12,7 +12,7 @@ class Person {
         
     }
     walk(){
-        console.log(`${this.name} is walking!!!`)
+        console.log(this.name + "  is walking!!!")
     }
 }
 
@@ -36,8 +36,10 @@ class Programmer extends Person{
 }
 
 let programmer = new Programmer("viet anh", "js");
-// console.log(programmer)
+console.log(programmer)
 console.log(programmer.language)
 programmer.setLanguage = "python"
 console.log(programmer)
 console.log(programmer.getLanguage)
+console.log(programmer.walk())
+console.log(programmer.writeCode())
